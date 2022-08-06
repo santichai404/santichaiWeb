@@ -1,0 +1,91 @@
+.exp {
+    background: #fcfcfc;
+    width: 100%;
+    height: auto;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
+.container-md h2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.box-exp {
+    margin: 0 auto;
+    height: 246px;
+    width: 389px;
+    border: 1px solid #d1d1d1;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box-exp:hover {
+    background: #e7e7e7;
+    border: 2px solid black;
+}
+
+.box-text {
+    padding: 40px 40px 40px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .box-exp {
+        width: auto;
+        height: auto;
+    }
+}
